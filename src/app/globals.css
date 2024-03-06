@@ -5,11 +5,11 @@
 @layer base {
   @font-face {
     font-family: 'Dune_Rise';
-    src: url(../fonts/Dune_Rise.otf) format('oft');
+    src: url("../fonts/Dune_Rise.ttf");
   }
   @font-face {
     font-family: 'Agency_FB';
-    src: url(../fonts/AgencyFB-Bold.ttf) format(('ttf'));
+    src: url("../fonts/AgencyFB-Bold.ttf");
   }
 }
 

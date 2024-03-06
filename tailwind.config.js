@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       backgroundImage: {
       },
+      fontFamily: {
+        custom1: ["Dune_Rise", "Inter"],
+        custom2: ["Agency_FB", "Inter"]
+
+      }
     },
   },
   plugins: [],

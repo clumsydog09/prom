@@ -1,0 +1,65 @@
+.countdown-timer {
+    width: 84%;
+    height: 22%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: 0.32%;
+
+}
+
+.t-value {
+    font-size: 8.2vw;
+    font-weight: 700;
+}
+
+.container-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.container-value-day {
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.n-value {
+    font-size: 1.6vw;
+}
+
+@media (max-width:480px) {
+
+    .countdown-timer {
+        width: 85%;
+        height: 17%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7%;
+        margin-top: 1%;
+
+    }
+
+    .container-value {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2%;
+    }
+
+    .t-value {
+        font-size: 9vw;
+    }
+
+    .n-value {
+        font-size: 2.6vw;
+    }
+
+}

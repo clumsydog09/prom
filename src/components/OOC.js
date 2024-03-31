@@ -6,16 +6,16 @@ import Image from "next/image";
 
 const OOC = () => {
   return (
-    <div className="text-white flex flex-col justify-center items-center">
-          {/* <Image src={ooc_back} className="z-1 absolute w-full"></Image> */}
-          <Image src={ooc} className="ml-16 mr-16 mt-10 lg:w-96 lg:h-96"></Image>
-          <div className="font-custom2 text-white ml-4 mt-20">
-          <p className="text-5xl">Order of Chaos</p>  
-          <p className="mt-5 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor dignissim convallis aenean et tortor at. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Justo donec enim diam vulputate ut pharetra sit amet aliquam. At urna condimentum mattis pellentesque id. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Amet volutpat consequat mauris nunc. Diam sit amet nisl suscipit.</p>
-          </div>
-          <button>
-            <Image src={ooc_button} className="animate-pulse"/>
-          </button>
+    <div className="text-white flex flex-row-reverse justify-center items-center">
+      {/* <Image src={ooc_back} className="z-1 absolute w-full"></Image> */}
+      <Image src={ooc} className="ml-16 mr-16 mt-10 lg:w-96 lg:h-96" alt="ooc-logo"></Image>
+      <div className="font-custom2 text-white ml-4 mt-20">
+        <p className="text-5xl">Order of Chaos</p>
+        <p className="mt-5 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor dignissim convallis aenean et tortor at. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Justo donec enim diam vulputate ut pharetra sit amet aliquam. At urna condimentum mattis pellentesque id. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Amet volutpat consequat mauris nunc. Diam sit amet nisl suscipit.</p>
+      </div>
+      <button>
+        <Image src={ooc_button} className="animate-pulse" alt="ooc-button" />
+      </button>
     </div>
   )
 }

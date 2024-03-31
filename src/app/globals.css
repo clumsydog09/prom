@@ -7,6 +7,7 @@
     font-family: 'Dune_Rise';
     src: url("../fonts/Dune_Rise.ttf");
   }
+
   @font-face {
     font-family: 'Agency_FB';
     src: url("../fonts/AgencyFB-Bold.ttf");
@@ -22,7 +23,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
+}
+
+body {
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.005), rgba(255, 255, 255, 0.005)),
+    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  /* sets the size of the grid */
+  background-attachment: fixed;
+  background-color: #000512;
+  /* Modify to better match your desired base color */
+}
+
+
+
+
+.glow {
+  color: #fff;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow:hover {
+  text-shadow: 0px 0px 50px #ffffff;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
